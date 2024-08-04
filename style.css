@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100dvh;
+}
+#navbar{
+    height: fit-content;
+    background-color: var(--bgClr);
+}
+#navbar h3{
+    color: #ffff;
+}
+#navbar a{
+    color:#BDBDBD;
+}
+
+.nav-active{
+    color:#ffff !important;
+}
+
+#header >div>div{
+    width: fit-content;
+}
+#header h2,
+#header p
+{
+    width: fit-content;
+}
+
+#main-feature{
+    background-color: var(--bgClr);
+
+}
