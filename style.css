@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Kanit", sans-serif;
 }
 body{
     min-height: 100dvh;
@@ -22,9 +22,41 @@ body{
     color:#ffff !important;
 }
 
-#header >div>div{
+
+
+
+#header > div:nth-child(1){
     width: fit-content;
+    max-width: 498px;
+    height: 528px;
+    /* overflow:hidden; */
 }
+#header > div:nth-child(1) > p{
+    width: 100%;
+    height: fit-content;
+    
+}
+#header > img{
+    width: 100%;
+    height: 528px;
+    object-fit: cover;
+    object-position: center;
+    padding: 0;
+    
+}
+
+#header > div:nth-child(2){
+    width: fit-content;
+    height: 528px;
+    /* overflow:hidden; */
+}
+#header > div:nth-child(2) > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 #header h2,
 #header p
 {
@@ -34,4 +66,39 @@ body{
 #main-feature{
     background-color: var(--bgClr);
 
+}
+
+#downloadNow{
+    background-color: var(--bgClr);
+}
+
+#footer{
+    background-color: var(--bgClr);
+}
+/* detail */
+
+#description_app{
+    background-color: var(--bgClr);
+}
+
+#benefit > div >div{
+    width: 318px;
+}
+
+
+/* about me */
+#about_me{
+    height: 93dvh;
+}
+
+#about_me_img{
+    width: 60%;
+    height: 432px;
+    overflow: hidden;
+}
+#about_me_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
